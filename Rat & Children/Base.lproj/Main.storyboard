@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,132 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Rat___Children" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="veD-55-jWc">
+                                <rect key="frame" x="25" y="64" width="364" height="778"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gUX-VF-9mI">
+                                        <rect key="frame" x="0.0" y="0.0" width="364" height="219.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXe-Tu-Iqv" userLabel="Rat Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="167" height="219.5"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                                <state key="normal" image="Rat 100">
+                                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ratTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MFN-nL-1kU"/>
+                                                    <action selector="ratTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Pq5-1u-c51"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfq-Zz-Apk" userLabel="Bear Claw Button">
+                                                <rect key="frame" x="197" y="0.0" width="167" height="219.5"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <inset key="contentEdgeInsets" minX="25" minY="40" maxX="25" maxY="40"/>
+                                                <state key="normal" image="Paw">
+                                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="bearClawTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkm-FM-49k"/>
+                                                    <action selector="bearClawTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="hD0-C0-klB"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="mPF-SC-QuS">
+                                        <rect key="frame" x="0.0" y="279.5" width="364" height="219"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Pz-eD-lAM">
+                                                <rect key="frame" x="0.0" y="0.0" width="167" height="219"/>
+                                                <inset key="contentEdgeInsets" minX="8" minY="20" maxX="8" maxY="20"/>
+                                                <state key="normal" image="Bear Angry">
+                                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="bearHeadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6QT-Yz-FG2"/>
+                                                    <action selector="bearHeadTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="QrZ-1d-MBI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkp-nd-XQR" userLabel="StrawButton">
+                                                <rect key="frame" x="197" y="0.0" width="167" height="219"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="40" maxX="15" maxY="40"/>
+                                                <state key="normal" image="Straws">
+                                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="strawTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wu3-MG-6u3"/>
+                                                    <action selector="strawTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="6MU-wv-L55"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="yvS-fh-Iob">
+                                        <rect key="frame" x="0.0" y="558.5" width="364" height="219.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcW-eZ-R82" userLabel="Motorcycle Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="167" height="219.5"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                                </accessibility>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                                <state key="normal" image="Motorcycle">
+                                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="motorcycleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HOp-gv-MDn"/>
+                                                    <action selector="motorcycleTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="Kfu-Ja-ann"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kr-Zt-OF7" userLabel="Ditka Button">
+                                                <rect key="frame" x="197" y="0.0" width="167" height="219.5"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="30" maxX="5" maxY="30"/>
+                                                <state key="normal" image="Da Bears">
+                                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ditkaTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="st5-zv-qrd"/>
+                                                    <action selector="ditkaTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="0yS-pa-oSn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="veD-55-jWc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="48z-s0-YKO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="veD-55-jWc" secondAttribute="bottom" constant="20" id="MBv-2i-Tlg"/>
+                            <constraint firstItem="veD-55-jWc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-25" id="UDD-W9-G11"/>
+                            <constraint firstItem="veD-55-jWc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="fY1-tF-m2s"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="EDW-kP-syR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bear Angry" width="530" height="530"/>
+        <image name="Da Bears" width="1362" height="1362"/>
+        <image name="Motorcycle" width="804" height="804"/>
+        <image name="Paw" width="840" height="859"/>
+        <image name="Rat 100" width="795" height="904"/>
+        <image name="Straws" width="480" height="480"/>
+    </resources>
 </document>

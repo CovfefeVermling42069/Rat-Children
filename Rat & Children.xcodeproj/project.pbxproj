@@ -13,6 +13,30 @@
 		9E4E05BD2417650600928BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05BB2417650600928BD4 /* Main.storyboard */; };
 		9E4E05BF2417650900928BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05BE2417650900928BD4 /* Assets.xcassets */; };
 		9E4E05C22417650900928BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05C02417650900928BD4 /* LaunchScreen.storyboard */; };
+		9E4E05CA24176FF400928BD4 /* Da Bears 100.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05C924176FF400928BD4 /* Da Bears 100.PNG */; };
+		9E4E05D3241781F200928BD4 /* Bear2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05CC241781F100928BD4 /* Bear2.wav */; };
+		9E4E05D4241781F200928BD4 /* Motorcycle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05CD241781F100928BD4 /* Motorcycle.wav */; };
+		9E4E05D5241781F200928BD4 /* Rat2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05CE241781F100928BD4 /* Rat2.wav */; };
+		9E4E05D6241781F200928BD4 /* Rat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05CF241781F100928BD4 /* Rat.wav */; };
+		9E4E05D7241781F200928BD4 /* Da Bear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05D0241781F200928BD4 /* Da Bear.wav */; };
+		9E4E05D8241781F200928BD4 /* Bear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05D1241781F200928BD4 /* Bear.wav */; };
+		9E4E05D9241781F200928BD4 /* Under the Skin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E05D2241781F200928BD4 /* Under the Skin.wav */; };
+		9E84D0152418A3C80090B770 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84D0142418A3C80090B770 /* UIExtensions.swift */; };
+		9E84D0172418ACA80090B770 /* Slurp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0162418ACA80090B770 /* Slurp.wav */; };
+		9E84D01C2418B2160090B770 /* BearCut2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0182418B2160090B770 /* BearCut2.wav */; };
+		9E84D01D2418B2160090B770 /* BearCut1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0192418B2160090B770 /* BearCut1.wav */; };
+		9E84D01E2418B2160090B770 /* BearCut3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D01A2418B2160090B770 /* BearCut3.wav */; };
+		9E84D01F2418B2160090B770 /* BearCut4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D01B2418B2160090B770 /* BearCut4.wav */; };
+		9E84D0212419EFAD0090B770 /* Da Bear 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0202419EFAD0090B770 /* Da Bear 2.wav */; };
+		9E84D0262419F3F70090B770 /* RatCut1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0222419F3F70090B770 /* RatCut1.wav */; };
+		9E84D0272419F3F70090B770 /* Bear2Cut1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0232419F3F70090B770 /* Bear2Cut1.wav */; };
+		9E84D0282419F3F70090B770 /* Under the Skin Fade Out.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0242419F3F70090B770 /* Under the Skin Fade Out.wav */; };
+		9E84D0292419F3F70090B770 /* Motorcycle2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D0252419F3F70090B770 /* Motorcycle2.wav */; };
+		9E84D02D2419F8A40090B770 /* Bear2Cut2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D02A2419F8A30090B770 /* Bear2Cut2.wav */; };
+		9E84D02E2419F8A40090B770 /* Bear2Cut4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D02B2419F8A30090B770 /* Bear2Cut4.wav */; };
+		9E84D02F2419F8A40090B770 /* Bear2Cut3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D02C2419F8A40090B770 /* Bear2Cut3.wav */; };
+		9E84D031241A0A620090B770 /* Under the Skin with Strings.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9E84D030241A0A620090B770 /* Under the Skin with Strings.wav */; };
+		9EFDB7952417EE240062F27E /* To Do.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9EFDB7942417EE240062F27E /* To Do.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +48,30 @@
 		9E4E05BE2417650900928BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E4E05C12417650900928BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E4E05C32417650900928BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4E05C924176FF400928BD4 /* Da Bears 100.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Da Bears 100.PNG"; sourceTree = "<group>"; };
+		9E4E05CC241781F100928BD4 /* Bear2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bear2.wav; sourceTree = "<group>"; };
+		9E4E05CD241781F100928BD4 /* Motorcycle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Motorcycle.wav; sourceTree = "<group>"; };
+		9E4E05CE241781F100928BD4 /* Rat2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rat2.wav; sourceTree = "<group>"; };
+		9E4E05CF241781F100928BD4 /* Rat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rat.wav; sourceTree = "<group>"; };
+		9E4E05D0241781F200928BD4 /* Da Bear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Da Bear.wav"; sourceTree = "<group>"; };
+		9E4E05D1241781F200928BD4 /* Bear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bear.wav; sourceTree = "<group>"; };
+		9E4E05D2241781F200928BD4 /* Under the Skin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Under the Skin.wav"; sourceTree = "<group>"; };
+		9E84D0142418A3C80090B770 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		9E84D0162418ACA80090B770 /* Slurp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Slurp.wav; sourceTree = "<group>"; };
+		9E84D0182418B2160090B770 /* BearCut2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BearCut2.wav; sourceTree = "<group>"; };
+		9E84D0192418B2160090B770 /* BearCut1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BearCut1.wav; sourceTree = "<group>"; };
+		9E84D01A2418B2160090B770 /* BearCut3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BearCut3.wav; sourceTree = "<group>"; };
+		9E84D01B2418B2160090B770 /* BearCut4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BearCut4.wav; sourceTree = "<group>"; };
+		9E84D0202419EFAD0090B770 /* Da Bear 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Da Bear 2.wav"; sourceTree = "<group>"; };
+		9E84D0222419F3F70090B770 /* RatCut1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RatCut1.wav; sourceTree = "<group>"; };
+		9E84D0232419F3F70090B770 /* Bear2Cut1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bear2Cut1.wav; sourceTree = "<group>"; };
+		9E84D0242419F3F70090B770 /* Under the Skin Fade Out.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Under the Skin Fade Out.wav"; sourceTree = "<group>"; };
+		9E84D0252419F3F70090B770 /* Motorcycle2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Motorcycle2.wav; sourceTree = "<group>"; };
+		9E84D02A2419F8A30090B770 /* Bear2Cut2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bear2Cut2.wav; sourceTree = "<group>"; };
+		9E84D02B2419F8A30090B770 /* Bear2Cut4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bear2Cut4.wav; sourceTree = "<group>"; };
+		9E84D02C2419F8A40090B770 /* Bear2Cut3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bear2Cut3.wav; sourceTree = "<group>"; };
+		9E84D030241A0A620090B770 /* Under the Skin with Strings.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Under the Skin with Strings.wav"; sourceTree = "<group>"; };
+		9EFDB7942417EE240062F27E /* To Do.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "To Do.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +104,47 @@
 		9E4E05B42417650600928BD4 /* Rat & Children */ = {
 			isa = PBXGroup;
 			children = (
+				9E4E05CB24177AA700928BD4 /* Sounds */,
 				9E4E05B52417650600928BD4 /* AppDelegate.swift */,
 				9E4E05B72417650600928BD4 /* SceneDelegate.swift */,
 				9E4E05B92417650600928BD4 /* ViewController.swift */,
 				9E4E05BB2417650600928BD4 /* Main.storyboard */,
+				9E4E05C924176FF400928BD4 /* Da Bears 100.PNG */,
 				9E4E05BE2417650900928BD4 /* Assets.xcassets */,
 				9E4E05C02417650900928BD4 /* LaunchScreen.storyboard */,
 				9E4E05C32417650900928BD4 /* Info.plist */,
+				9EFDB7942417EE240062F27E /* To Do.rtf */,
+				9E84D0142418A3C80090B770 /* UIExtensions.swift */,
 			);
 			path = "Rat & Children";
+			sourceTree = "<group>";
+		};
+		9E4E05CB24177AA700928BD4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9E4E05D1241781F200928BD4 /* Bear.wav */,
+				9E4E05CC241781F100928BD4 /* Bear2.wav */,
+				9E84D0192418B2160090B770 /* BearCut1.wav */,
+				9E84D0182418B2160090B770 /* BearCut2.wav */,
+				9E84D01A2418B2160090B770 /* BearCut3.wav */,
+				9E84D0202419EFAD0090B770 /* Da Bear 2.wav */,
+				9E84D01B2418B2160090B770 /* BearCut4.wav */,
+				9E4E05D0241781F200928BD4 /* Da Bear.wav */,
+				9E84D0232419F3F70090B770 /* Bear2Cut1.wav */,
+				9E84D02A2419F8A30090B770 /* Bear2Cut2.wav */,
+				9E84D02C2419F8A40090B770 /* Bear2Cut3.wav */,
+				9E84D02B2419F8A30090B770 /* Bear2Cut4.wav */,
+				9E84D0252419F3F70090B770 /* Motorcycle2.wav */,
+				9E84D030241A0A620090B770 /* Under the Skin with Strings.wav */,
+				9E84D0222419F3F70090B770 /* RatCut1.wav */,
+				9E84D0242419F3F70090B770 /* Under the Skin Fade Out.wav */,
+				9E4E05CD241781F100928BD4 /* Motorcycle.wav */,
+				9E84D0162418ACA80090B770 /* Slurp.wav */,
+				9E4E05CF241781F100928BD4 /* Rat.wav */,
+				9E4E05CE241781F100928BD4 /* Rat2.wav */,
+				9E4E05D2241781F200928BD4 /* Under the Skin.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +206,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4E05C22417650900928BD4 /* LaunchScreen.storyboard in Resources */,
+				9E84D01F2418B2160090B770 /* BearCut4.wav in Resources */,
+				9E84D01E2418B2160090B770 /* BearCut3.wav in Resources */,
+				9E84D0172418ACA80090B770 /* Slurp.wav in Resources */,
 				9E4E05BF2417650900928BD4 /* Assets.xcassets in Resources */,
+				9E84D031241A0A620090B770 /* Under the Skin with Strings.wav in Resources */,
+				9E4E05D6241781F200928BD4 /* Rat.wav in Resources */,
+				9E4E05D5241781F200928BD4 /* Rat2.wav in Resources */,
+				9E4E05D9241781F200928BD4 /* Under the Skin.wav in Resources */,
+				9E84D0272419F3F70090B770 /* Bear2Cut1.wav in Resources */,
+				9E84D0212419EFAD0090B770 /* Da Bear 2.wav in Resources */,
+				9E84D0292419F3F70090B770 /* Motorcycle2.wav in Resources */,
+				9E84D01D2418B2160090B770 /* BearCut1.wav in Resources */,
+				9E84D01C2418B2160090B770 /* BearCut2.wav in Resources */,
+				9E4E05D3241781F200928BD4 /* Bear2.wav in Resources */,
+				9E84D02F2419F8A40090B770 /* Bear2Cut3.wav in Resources */,
+				9E4E05D7241781F200928BD4 /* Da Bear.wav in Resources */,
+				9E4E05D8241781F200928BD4 /* Bear.wav in Resources */,
+				9E84D02D2419F8A40090B770 /* Bear2Cut2.wav in Resources */,
+				9E4E05CA24176FF400928BD4 /* Da Bears 100.PNG in Resources */,
+				9E84D0282419F3F70090B770 /* Under the Skin Fade Out.wav in Resources */,
+				9EFDB7952417EE240062F27E /* To Do.rtf in Resources */,
+				9E84D0262419F3F70090B770 /* RatCut1.wav in Resources */,
+				9E84D02E2419F8A40090B770 /* Bear2Cut4.wav in Resources */,
 				9E4E05BD2417650600928BD4 /* Main.storyboard in Resources */,
+				9E4E05D4241781F200928BD4 /* Motorcycle.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4E05BA2417650600928BD4 /* ViewController.swift in Sources */,
+				9E84D0152418A3C80090B770 /* UIExtensions.swift in Sources */,
 				9E4E05B62417650600928BD4 /* AppDelegate.swift in Sources */,
 				9E4E05B82417650600928BD4 /* SceneDelegate.swift in Sources */,
 			);
